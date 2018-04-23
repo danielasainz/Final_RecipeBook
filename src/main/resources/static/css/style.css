@@ -41,6 +41,15 @@
 
 }
 
+.recipe {
+    font-family: 'Lobster', cursive;
+}
+
+.recipe:hover{
+    background-color:black;
+    cursor:default;
+}
+
 img {
     /*height: auto;
     min-height: 250px;
