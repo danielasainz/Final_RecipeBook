@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="www.thymeleaf.org">
-<head>
+<head th:fragment="first">
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Recipe Book</title>
@@ -15,14 +15,16 @@
 </head>
 <body>
 
-<nav>
+<nav th:fragment="shortcut">
     <div class="topnav">
         <a class="" href="#">My Recipe Book</a>
     <ul>
         <li class="recipe"><a class="recipe" href="#">My Recipe Book</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/makhrouds">Makhrouds Recipe</a></li>
         <li><a href="/wings">Wings Recipe</a></li>
         <li><a href="/uindex">Crab Cake Recipe</a></li>
-        <li><a href="/injeraindex">Injera</a></li>
+        <li><a href="/injeraindex">Injera Recipe</a></li>
     </ul>
     </div>
 </nav>

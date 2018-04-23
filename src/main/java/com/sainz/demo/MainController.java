@@ -26,5 +26,9 @@ public class MainController {
     public String showInjeraIndex() {
         return "injeraindex";
     }
+    @RequestMapping("/makhrouds")
+    public String showMakhrouds() {
+        return "makhrouds";
+    }
 
 }

@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="www.thymeleaf.org">
-<head>
+
+<head th:replace="index :: first"></head>
+
+<!-- <head>
     <meta charset="UTF-8"/>
     <title>Crabby Web Recipe</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
-</head>
+</head> -->
 <body>
 
-<nav>
+<nav th:replace="index :: shortcut"></nav>
+
+
+<!-- <nav>
+<div th:fragment="topnav">
+
     <div class="topnav">
         <ul>
             <li class="recipe"><a href="#">My Recipe Book</a></li>
@@ -19,11 +27,11 @@
             <li><a href="/injeraindex">Injera</a></li>
         </ul>
     </div>
-</nav>
+</nav> -->
 
 <div class="container">
 <h1 class="crabcake"> Crabcake Recipe </h1>
-<h1 class="USA"> USA </h1>
+<h1 class="USA"> Country: USA </h1>
     <br/>
 <img src="https://images.unsplash.com/photo-1484715340216-6e77040b1852?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4d0626f7e6870600e976b61b0c83cee4&auto=format&fit=crop&w=1050&q=80" alt="This is a crab"/>
  <br/><br/>
@@ -41,7 +49,6 @@
             <h2> Ingredients: </h2>
 
             <ul>
-
                 <li>1 lb. jumbo lump or backfin crab meat</li>
                 <li>2 slices bread or bread crumbs</li>
                 <li>1 tbsp. mayonnaise (light or regular)</li>
@@ -50,7 +57,6 @@
                 <li>1 tbsp. snipped parsley</li>
                 <li>1 egg (or substitute for special diets)</li>
                 <li>tartar sauce or cocktail sauce</li>
-
             </ul>
         </div>
         <div class="col-7">

@@ -12,6 +12,18 @@
     overflow: hidden;
 }
 
+.mak {
+    text-align:center;
+}
+
+.tunisia {
+    text-align:center;
+}
+
+.algeria {
+    text-align:center;
+}
+
 .ethiopia {
     text-align:center;
 }
@@ -75,6 +87,10 @@ img {
 .yellow{
     background-color: #ffff00;
     border-color: #ffff00;
+}
+
+.mingredients{
+    list-style-type: square;
 }
 
 li {
