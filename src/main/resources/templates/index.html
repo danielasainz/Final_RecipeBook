@@ -15,16 +15,21 @@
 </head>
 <body>
 
+<!-- TRYING TO WORK A MODIFICATION HERE <nav th:fragment="shortcut(${activeTab})"> -->
+
+
 <nav th:fragment="shortcut">
     <div class="topnav">
         <a class="" href="#">My Recipe Book</a>
     <ul>
-        <li class="recipe"><a class="recipe" href="#">My Recipe Book</a></li>
-        <li><a href="/">Home</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/list">List All</a>
         <li><a href="/makhrouds">Makhrouds Recipe</a></li>
-        <li><a href="/wings">Wings Recipe</a></li>
         <li><a href="/uindex">Crab Cake Recipe</a></li>
         <li><a href="/injeraindex">Injera Recipe</a></li>
+        <li><a href="/eggsauce">Eggsauce Recipe</a></li>
+        <li><a href="/pumpkinspice">Pumpkin Noodles Recipe</a></li>
+        <li><a href="/wings">Wings Recipe</a></li>
     </ul>
     </div>
 </nav>
@@ -38,7 +43,7 @@
 
     </div>
 </header>
-</div>
+
 
 <article>
     <div class="section">

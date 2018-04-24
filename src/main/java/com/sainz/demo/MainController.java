@@ -8,27 +8,42 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class MainController {
 
     @RequestMapping("/")
-    public String showIndex()
-    {
+    public String showIndex(){
         return "index";
     }
+
     @RequestMapping("/wings")
-    public String showWings()
-    {
+    public String showWings(){
         return "wings";
     }
+
     @RequestMapping("/uindex")
-    public String showUindex()
-    {
+    public String showUindex(){
         return "uindex";
     }
+
     @RequestMapping("/injeraindex")
     public String showInjeraIndex() {
         return "injeraindex";
     }
+
     @RequestMapping("/makhrouds")
     public String showMakhrouds() {
         return "makhrouds";
     }
 
+    @RequestMapping("/eggsauce")
+    public String showEggsauce(){
+        return "eggsauce";
+    }
+
+    @RequestMapping("/pumpkinspice")
+    public String showPumpkinSpice(){
+        return "pumpkinspice";
+    }
+
+    @RequestMapping("/list")
+    public String showList(){
+        return "list";
+    }
 }

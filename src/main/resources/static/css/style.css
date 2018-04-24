@@ -12,6 +12,54 @@
     overflow: hidden;
 }
 
+/*
+
+div.r1 {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+
+}
+
+div.c2 {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.c1 {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.c2 img{
+    width:100%;
+    height: auto;
+}
+
+div.c1 img{
+    width:100%;
+    height: auto;
+}
+
+*/
+
+.taiwan{
+    text-align:center;
+}
+
+.noodles {
+    text-align:center;
+}
+
+.eggsauce {
+    text-align:center;
+}
+
 .mak {
     text-align:center;
 }
@@ -42,6 +90,14 @@
 }
 .crabcake {
     text-align: center;
+}
+
+.w2 {
+    text-align:center;
+}
+
+.cr2 {
+    text-align:center;
 }
 
 .USA {
@@ -93,6 +149,26 @@ img {
     list-style-type: square;
 }
 
+.eingredients{
+    list-style-type: square;
+}
+
+.pingredients{
+    list-style-type: square;
+}
+
+.chicken{
+    list-style-type: square;
+}
+
+.teff{
+    list-style-type: square;
+}
+
+.jumbo{
+    list-style-type: square;
+}
+
 li {
     list-style-type: none;
     margin: 0;
@@ -111,7 +187,7 @@ li {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 12px;
 
 
     /*width:65% !important;*/

@@ -1,10 +1,53 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="www.thymeleaf.org">
-<head>
-    <meta charset="UTF-8"/>
-    <title>Title</title>
-</head>
+
+<head th:replace="index :: first"></head>
 <body>
+
+<nav th:replace="index :: shortcut"></nav>
+
+<!-- <nav th:replace="/templates/index::thenav(${menuoption})"></nav> -->
+
+<div class="container">
+<h1 class="eggsauce">Eggsauce Recipe</h1>
+
+<img src="http://sisijemimah.com/wp-content/uploads/2016/09/egg-stew-12.jpg" alt="This is eggsauce"/>
+<br/><br/>
+<h1 class="algeria"> Country: Nigeria </h1>
+<img src="http://nigeriaflag.facts.co/Nigeria-Flag.jpg" alt="This is the Nigerian flag"/>
+<br/><br/>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-3">
+
+            <h2> Ingredients: </h2>
+
+            <ul class="eingredients">
+                <li class="eingredients">2 large tomatoes</li>
+                <li class="eingredients">1 large onion</li>
+                <li class="eingredients">1 scotch bonnet pepper</li>
+                <li class="eingredients">2 tablespoons of cooking oil (any type)</li>
+                <li class="eingredients">4 or 5 eggs (depending on the number of people eating)</li>
+                <li class="eingredients">Seasonings (suya pepper, garlic powder, thyme, etc)</li>
+            </ul>
+        </div>
+        <div class="col-7">
+            <h2>   Directions: </h2>
+            <p>
+                Dice onions, tomatoes and 1 scotch bonnet pepper (depending on how hot you want it to be) or can be replaced with black pepper.<br/>
+                Add the diced onions, tomatoes and pepper into a pot, and cook until some of the juices are dried up.<br/>
+                Then add a table spoon or 2 (enough to cook the eggs) to the mixture.<br/>
+                Fry for a little bit, then add seasonings (suya pepper gotten from Tesco, any other type of seasoning pepper can be used, garlic powder, Nigerian knorr seasoning cubes stock cubes can be used instead but not diluted with water, thyme, pinch of salt and any other seasoning you like).<br/>
+                Then add the eggs and cook until well done.</p><br/><br/>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
 
 </body>
 </html>
